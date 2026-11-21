@@ -1,0 +1,11 @@
+benchmark,model,variant,archived_value,reference_value,result,source,locator
+HEART,GPT-4o,Overall Win Rate,48.5,48.5,match,https://arxiv.org/abs/2601.19922,Table 1 win rate
+HEART,Gemini 2.5 Pro,Overall Win Rate,39.5,39.5,match,https://arxiv.org/abs/2601.19922,Table 1 win rate
+MindEval,Gemini 2.5 Pro,Avg,3.83,3.83,match,https://arxiv.org/abs/2511.18491,Table 3 average score
+CBT-Bench,GPT-4o,CBT-QA Accuracy,94.1,94.1,match,https://arxiv.org/abs/2410.13218,Table 5 CBT-QA accuracy
+CBT-Bench Level III,GPT-4o,Overall vs reference,-0.32,-0.32,match,https://arxiv.org/abs/2410.13218,Table 6 mean across ten exercises
+PsychiatryBench,Gemini 2.5 Pro,Overall,80.2,80.2,match,https://pmc.ncbi.nlm.nih.gov/articles/PMC13087022/,Mean across benchmark tasks
+SIRI-2,GPT-4o,Configuration mean,45.55,45.55,match,https://www.medrxiv.org/content/10.64898/2026.03.20.26348900v1,Mean of all six configurations in supplied Table A3a
+SIRI-2 reasoning consistency,GPT-4o,Mean consistency,0.831,0.831,match,https://www.medrxiv.org/content/10.64898/2026.03.20.26348900v1,"Supplied Table A4a, mean reasoning consistency"
+SIRI-2,Gemini 2.5 Pro,Configuration mean,40.36666666666667,40.36666666666667,match,https://www.medrxiv.org/content/10.64898/2026.03.20.26348900v1,Mean of all six configurations in supplied Table A3a
+SIRI-2 reasoning consistency,Gemini 2.5 Pro,Mean consistency,0.891,0.891,match,https://www.medrxiv.org/content/10.64898/2026.03.20.26348900v1,"Supplied Table A4a, mean reasoning consistency"
