@@ -1,0 +1,27 @@
+benchmark,archive_rows,distinct_source_labels,missing_numeric_values,match,qualified,differs,invalid,unresolved
+CBT-Bench,32,3,0,32,0,0,0,0
+CBT-Bench Level III,3,1,0,3,0,0,0,0
+CounselingBench,11,2,0,0,0,2,0,9
+EmoBench,18,2,0,14,4,0,0,0
+EmoBench-M,324,1,0,324,0,0,0,0
+EmoBench-Reddit,261,1,0,261,0,0,0,0
+GPQA,2,2,0,1,1,0,0,0
+HEART,126,1,0,126,0,0,0,0
+MENTAT,42,3,0,42,0,0,0,0
+MMLU-Pro,66,1,0,66,0,0,0,0
+MentalBench,114,2,0,114,0,0,0,0
+MentalChat16K,10,2,0,2,4,0,4,0
+MindEval,72,1,0,72,0,0,0,0
+MoralBench,10,2,0,8,0,2,0,0
+MoralChoice,18,2,0,0,18,0,0,0
+MusPsy,2,1,0,2,0,0,0,0
+OMind-Chat,54,1,0,54,0,0,0,0
+PATIENT-Ψ,4,3,0,0,4,0,0,0
+PsychBench,16,2,0,16,0,0,0,0
+PsychiatryBench,28,2,2,28,0,0,0,0
+PsychoBench,80,1,0,80,0,0,0,0
+RACE-h,2,2,1,0,2,0,0,0
+Theory of Mind,18,2,0,14,4,0,0,0
+Theory of Mind Timeline,5,2,0,3,2,0,0,0
+ToM (Johns Hopkins),1,1,0,0,1,0,0,0
+WinoGrande,1,1,0,0,1,0,0,0

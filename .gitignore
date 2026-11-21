@@ -1,0 +1,18 @@
+.DS_Store
+.venv/
+__pycache__/
+
+# Intermediate exports from the analysis builder
+/data/*.json
+/data/analysis_summary_deduped.csv
+/data/benchmark_composite.csv
+/data/correlation_results.csv
+/data/frontier_monthly_summary.csv
+/data/frontier_reference.csv
+/data/frontier_timeline.csv
+/data/gap_metrics.csv
+/data/gap_summary.csv
+/data/jagged_profile.csv
+/data/model_benchmark_summary.csv
+/data/model_psych_composite.csv
+/data/model_signal_composite.csv
