@@ -1,0 +1,11 @@
+issue_type,benchmark,model_name_norm,details
+name_variants,MENTAT,MentaLLaMA 7B,MentaLLaMA 7B / Mentallama 7B
+name_variants,MENTAT,o1-mini,o1 mini / o1-mini
+version_ambiguity,ChatGPT (unspecified),ChatGPT (unspecified),"Several prompt rows use ChatGPT without a dated snapshot, so cross-benchmark comparisons may mix different underlying model versions."
+version_ambiguity,GPT-4,GPT-4,GPT-4 benchmark rows likely span multiple GPT-4-era snapshots and should not be treated as one frozen model build.
+metric_mixing,MentalChat16K,MentalChat16K,MentalChat16K scores are judge ratings on a 10-point scale and are not directly comparable to accuracy/F1 benchmarks.
+metric_mixing,Simulation frameworks,Simulation frameworks,"PATIENT-Ψ, MusPsy, and PsychEval are framework or dataset evaluations, not directly comparable frontier model leaderboards."
+model_granularity,Open-weight families,Open-weight families,"Rows like Llama, Qwen, Gemma, and Mixtral often represent distinct parameter variants rather than inconsistencies; analyze them as separate models, not one pooled family."
+metadata_gap,Closed models,Closed models,Parameter counts are undisclosed for most proprietary models; leave parameter-size analyses blank or estimated rather than exact.
+aa_methodology,Artificial Analysis,Artificial Analysis,"Artificial Analysis Intelligence Index methodology changes over time, so scores from different index versions should not be pooled without a version field."
+healthbench_scope,HealthBench,HealthBench,Exact HealthBench overall scores were textually available for OpenAI models in the paper; for some non-OpenAI models only Consensus results were directly recoverable in text.

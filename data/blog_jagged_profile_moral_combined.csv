@@ -1,0 +1,255 @@
+model_name_norm,capability_family,family_score_pct,parameter_size_billions,aa_intelligence_index,benchmark_count,benchmark_list,score_basis
+AffectGPT 7B,emotion_and_affect,47.3,7.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Baichuan4,structured_clinical_reasoning,70.77,,,1,PsychBench (Overall),direction_corrected_raw
+Best Human,multi_turn_consistency,100.0,,,1,HEART (Overall Win Rate),dataset_to_best_human
+ChatPsychiatrist,therapy_protocol_fidelity,69.1,,,1,MentalChat16K (Judge average 1),direction_corrected_raw
+Claude 3 Haiku,structured_clinical_reasoning,70.0,,12.3,1,MENTAT (Overall Accuracy),direction_corrected_raw
+Claude 3 Opus,knowledge_recall,50.4,,18.0,1,GPQA (Overall),direction_corrected_raw
+Claude 3 Opus,structured_clinical_reasoning,73.0,,18.0,1,MENTAT (Overall Accuracy),direction_corrected_raw
+Claude 3.5 Haiku,crisis_safety,67.55000000000001,,18.7,2,SIRI-2 (Configuration mean); SIRI-2 reasoning consistency (Mean consistency),direction_corrected_raw
+Claude 3.5 Haiku,structured_clinical_reasoning,71.0,,18.7,1,MENTAT (Overall Accuracy),direction_corrected_raw
+Claude 3.5 Sonnet,crisis_safety,73.39,,14.2,2,SIRI-2 (Configuration mean); SIRI-2 reasoning consistency (Mean consistency),direction_corrected_raw
+Claude 3.5 Sonnet,structured_clinical_reasoning,77.0,,14.2,1,MENTAT (Overall Accuracy),direction_corrected_raw
+Claude 3.7 Sonnet,multi_turn_consistency,100.0,,,1,HEART (Overall Win Rate),dataset_to_best_human
+Claude Haiku 4.5,differential_diagnosis,60.89,,31.1,1,MentalBench (Overall),direction_corrected_raw
+Claude Haiku 4.5,multi_turn_consistency,100.0,,31.1,1,HEART (Overall Win Rate),dataset_to_best_human
+Claude Opus 4,crisis_safety,79.175,,33.0,2,SIRI-2 (Configuration mean); SIRI-2 reasoning consistency (Mean consistency),direction_corrected_raw
+Claude Opus 4,multi_turn_consistency,90.90909090909092,,33.0,1,HEART (Overall Win Rate),dataset_to_best_human
+Claude Sonnet 4,crisis_safety,78.235,,33.0,2,SIRI-2 (Configuration mean); SIRI-2 reasoning consistency (Mean consistency),direction_corrected_raw
+Claude Sonnet 4,structured_clinical_reasoning,80.5,,33.0,1,PsychiatryBench (Overall),direction_corrected_raw
+Claude Sonnet 4.5,differential_diagnosis,62.69,,37.1,1,MentalBench (Overall),direction_corrected_raw
+Claude Sonnet 4.5,multi_turn_consistency,100.0,,37.1,1,HEART (Overall Win Rate),dataset_to_best_human
+Claude Sonnet 4.5,structured_clinical_reasoning,82.6,,37.1,1,PsychiatryBench (Overall),direction_corrected_raw
+Claude Sonnet 4.5,therapy_protocol_fidelity,53.6,,37.1,1,MindEval (Avg),direction_corrected_raw
+Claude-3.5-Sonnet (2024-06-20),knowledge_recall,82.21,,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Claude-3.5-Sonnet (2024-10-22),knowledge_recall,84.59,,,1,MMLU-Pro (Psychology),direction_corrected_raw
+DeepSeek,structured_clinical_reasoning,78.3,,,1,PsychBench (Overall),direction_corrected_raw
+DeepSeek-R1,structured_clinical_reasoning,80.4,671.0,18.8,1,PsychiatryBench (Overall),direction_corrected_raw
+DeepSeek-R1 671B,structured_clinical_reasoning,80.4,671.0,18.8,1,PsychiatryBench (Overall),direction_corrected_raw
+DeepSeek-R1-Distill-Qwen-14B,knowledge_recall,26.2,671.0,15.8,1,PsychoBench (Top-1 Accuracy),direction_corrected_raw
+DeepSeek-R1-Distill-Qwen-7B,knowledge_recall,26.2,671.0,68.0,1,PsychoBench (Top-1 Accuracy),direction_corrected_raw
+DeepSeek-V3,knowledge_recall,78.82,,16.5,1,MMLU-Pro (Psychology),direction_corrected_raw
+DeepSeek-VL 7B,emotion_and_affect,62.25,7.0,,1,EmoBench-Reddit (Overall Accuracy),direction_corrected_raw
+DeepSeek-chat,structured_clinical_reasoning,76.7,67.0,,1,PsychiatryBench (Overall),direction_corrected_raw
+DeepSeek-chat 67B,structured_clinical_reasoning,76.7,67.0,,1,PsychiatryBench (Overall),direction_corrected_raw
+Doubao-pro-32k,structured_clinical_reasoning,80.21,,,1,PsychBench (Overall),direction_corrected_raw
+ERNIE-4-8k,structured_clinical_reasoning,79.48,,,1,PsychBench (Overall),direction_corrected_raw
+Emotion-LLaMA 7B,emotion_and_affect,36.9,7.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+GLM-4,emotion_and_affect,53.900000000000006,,,2,EmoBench (Emotion Application); EmoBench (Emotion Understanding),direction_corrected_raw
+GLM-4,moral_reasoning,84.1,,,2,MoralChoice (High Ambiguity Accuracy); MoralChoice (Low Ambiguity Accuracy),direction_corrected_raw
+GLM-4,structured_clinical_reasoning,65.82,,,1,PsychBench (Overall),direction_corrected_raw
+GLM-4,theory_of_mind,75.0,,,2,Theory of Mind (Transfer DQA); Theory of Mind (Unexpected Content),direction_corrected_raw
+GLM-4 9B,knowledge_recall,65.41,9.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+GLM-4.6,therapy_protocol_fidelity,55.2,,,1,MindEval (Avg),direction_corrected_raw
+GLM-4V-PLUS,emotion_and_affect,66.835,,,2,EmoBench-M (FER Avg ACC); EmoBench-Reddit (Overall Accuracy),direction_corrected_raw
+GPT-1 117M,theory_of_mind,0.0,0.117,,1,Theory of Mind Timeline (False Belief),direction_corrected_raw
+GPT-2 XL 1.5B,theory_of_mind,0.0,1.5,,1,Theory of Mind Timeline (False Belief),direction_corrected_raw
+GPT-3-davinci-003 175B,theory_of_mind,20.0,175.0,,1,Theory of Mind Timeline (False Belief),direction_corrected_raw
+GPT-3.5,moral_reasoning,50.3,,9.0,1,MoralBench (MFV Total),direction_corrected_raw
+GPT-3.5,theory_of_mind,52.5,,9.0,1,MoToMQA (Aggregate ToM accuracy),direction_corrected_raw
+GPT-3.5 Turbo,crisis_safety,57.925,175.0,9.0,2,SIRI-2 (Configuration mean); SIRI-2 reasoning consistency (Mean consistency),direction_corrected_raw
+GPT-3.5 Turbo,emotion_and_affect,51.2,175.0,,2,EmoBench (Emotion Application); EmoBench (Emotion Understanding),direction_corrected_raw
+GPT-3.5 Turbo,knowledge_recall,82.5,175.0,9.0,1,PsychoBench (Top-1 Accuracy),direction_corrected_raw
+GPT-3.5 Turbo,moral_reasoning,77.45,175.0,,2,MoralChoice (High Ambiguity Accuracy); MoralChoice (Low Ambiguity Accuracy),direction_corrected_raw
+GPT-3.5 Turbo,structured_clinical_reasoning,59.41,175.0,9.0,1,PsychBench (Overall),direction_corrected_raw
+GPT-3.5 Turbo,theory_of_mind,17.5,175.0,,2,Theory of Mind (Transfer DQA); Theory of Mind (Unexpected Content),direction_corrected_raw
+GPT-3.5 Turbo 175B,theory_of_mind,20.0,175.0,,1,Theory of Mind Timeline (False Belief),direction_corrected_raw
+GPT-4,emotion_and_affect,61.35,1760.0,12.8,2,EmoBench (Emotion Application); EmoBench (Emotion Understanding),direction_corrected_raw
+GPT-4,moral_reasoning,72.5,1760.0,12.8,3,MoralBench (MFV Total); MoralChoice (High Ambiguity Accuracy); MoralChoice (Low Ambiguity Accuracy),direction_corrected_raw
+GPT-4,structured_clinical_reasoning,70.3,1760.0,12.8,1,PsychBench (Overall),direction_corrected_raw
+GPT-4,theory_of_mind,89.85000000000001,1760.0,12.8,6,MoToMQA (6th-order ToM accuracy); MoToMQA (Aggregate ToM accuracy); Theory of Mind (Transfer DQA); Theory of Mind (Unexpected Content); Theory of Mind Timeline (False Belief); ToM (Johns Hopkins) (Overall),direction_corrected_raw
+GPT-4-Turbo,knowledge_recall,78.32,,13.7,1,MMLU-Pro (Psychology),direction_corrected_raw
+GPT-4.1 mini,multi_turn_consistency,100.0,,22.9,1,HEART (Overall Win Rate),dataset_to_best_human
+GPT-4V,emotion_and_affect,74.75,,,1,EmoBench-Reddit (Overall Accuracy),direction_corrected_raw
+GPT-4o,crisis_safety,68.775,200.0,14.5,2,SIRI-2 (Configuration mean); SIRI-2 reasoning consistency (Mean consistency),direction_corrected_raw
+GPT-4o,differential_diagnosis,52.43,200.0,14.5,1,MentalBench (Overall),direction_corrected_raw
+GPT-4o,emotion_and_affect,75.46,200.0,14.5,1,EmoBench-Reddit (Overall Accuracy),direction_corrected_raw
+GPT-4o,knowledge_recall,85.42,200.0,14.5,2,MMLU-Pro (Psychology); PsychoBench (Top-1 Accuracy),direction_corrected_raw
+GPT-4o,multi_turn_consistency,89.23444976076554,200.0,14.5,1,HEART (Overall Win Rate),dataset_to_best_human
+GPT-4o,structured_clinical_reasoning,79.0,200.0,14.5,1,MENTAT (Overall Accuracy),direction_corrected_raw
+GPT-4o,therapy_protocol_fidelity,68.16666666666667,200.0,14.5,3,CBT-Bench (CBT-QA Accuracy); CBT-Bench Level III (Overall vs reference); CounselingBench (Self-consistency),direction_corrected_raw; human_baseline
+GPT-4o mini,knowledge_recall,82.15,8.0,12.6,2,MMLU-Pro (Psychology); PsychoBench (Top-1 Accuracy),direction_corrected_raw
+GPT-4o mini,structured_clinical_reasoning,69.99000000000001,8.0,12.6,2,MENTAT (Overall Accuracy); PsychBench (Overall),direction_corrected_raw
+GPT-5,emotion_and_affect,78.89,,44.6,1,EmoBench-Reddit (Overall Accuracy),direction_corrected_raw
+GPT-5,multi_turn_consistency,100.0,,44.6,1,HEART (Overall Win Rate),dataset_to_best_human
+GPT-5,therapy_protocol_fidelity,52.0,,44.6,1,MindEval (Avg),direction_corrected_raw
+GPT-5 Medium,structured_clinical_reasoning,84.5,,42.0,1,PsychiatryBench (Overall),direction_corrected_raw
+GPT-5 mini,differential_diagnosis,60.63,,41.2,1,MentalBench (Overall),direction_corrected_raw
+GPT-5.1,differential_diagnosis,62.17,,47.7,1,MentalBench (Overall),direction_corrected_raw
+GPT-5.2,emotion_and_affect,65.0,,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+GPT-oss,structured_clinical_reasoning,72.3,120.0,,1,PsychiatryBench (Overall),direction_corrected_raw
+GPT-oss 120B,structured_clinical_reasoning,72.3,120.0,,1,PsychiatryBench (Overall),direction_corrected_raw
+GPT-oss-120B,therapy_protocol_fidelity,37.2,120.0,33.3,1,MindEval (Avg),direction_corrected_raw
+Gemini 1.5 Flash,emotion_and_affect,59.7,,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Gemini 1.5 Flash,knowledge_recall,70.05,,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Gemini 1.5 Pro,knowledge_recall,77.2,,16.0,1,MMLU-Pro (Psychology),direction_corrected_raw
+Gemini 1.5 Pro,structured_clinical_reasoning,64.81,,16.0,1,PsychBench (Overall),direction_corrected_raw
+Gemini 1.5 Pro,therapy_protocol_fidelity,61.0,,16.0,1,CounselingBench (Self-consistency),direction_corrected_raw
+Gemini 1.5 Pro 002,knowledge_recall,82.94,,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Gemini 2.0 Flash,crisis_safety,68.325,20.0,16.8,2,SIRI-2 (Configuration mean); SIRI-2 reasoning consistency (Mean consistency),direction_corrected_raw
+Gemini 2.0 Flash,emotion_and_affect,68.505,20.0,16.8,2,EmoBench-M (FER Avg ACC); EmoBench-Reddit (Overall Accuracy),direction_corrected_raw
+Gemini 2.0 Flash,knowledge_recall,79.05,20.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Gemini 2.0 Flash,structured_clinical_reasoning,74.6,20.0,16.8,1,PsychiatryBench (Overall),direction_corrected_raw
+Gemini 2.0 Flash Thinking,emotion_and_affect,57.7,,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Gemini 2.5 Flash,crisis_safety,72.5,,17.8,2,SIRI-2 (Configuration mean); SIRI-2 reasoning consistency (Mean consistency),direction_corrected_raw
+Gemini 2.5 Flash,differential_diagnosis,57.9,,17.8,1,MentalBench (Overall),direction_corrected_raw
+Gemini 2.5 Flash,multi_turn_consistency,33.25358851674642,,17.8,1,HEART (Overall Win Rate),dataset_to_best_human
+Gemini 2.5 Flash,structured_clinical_reasoning,77.55,,17.8,1,PsychiatryBench (Overall),direction_corrected_raw
+Gemini 2.5 Flash (T),structured_clinical_reasoning,77.5,,24.3,1,PsychiatryBench (Overall),direction_corrected_raw
+Gemini 2.5 Pro,crisis_safety,74.365,,34.6,2,SIRI-2 (Configuration mean); SIRI-2 reasoning consistency (Mean consistency),direction_corrected_raw
+Gemini 2.5 Pro,differential_diagnosis,59.65,,34.6,1,MentalBench (Overall),direction_corrected_raw
+Gemini 2.5 Pro,emotion_and_affect,81.25,,34.6,1,EmoBench-Reddit (Overall Accuracy),direction_corrected_raw
+Gemini 2.5 Pro,knowledge_recall,87.26,,35.0,1,MMLU-Pro (Psychology),direction_corrected_raw
+Gemini 2.5 Pro,multi_turn_consistency,67.70334928229666,,34.6,1,HEART (Overall Win Rate),dataset_to_best_human
+Gemini 2.5 Pro,structured_clinical_reasoning,80.2,,34.6,1,PsychiatryBench (Overall),direction_corrected_raw
+Gemini 2.5 Pro,therapy_protocol_fidelity,56.6,,34.6,1,MindEval (Avg),direction_corrected_raw
+Gemini 3 Pro Preview,multi_turn_consistency,81.3397129186603,,,1,HEART (Overall Win Rate),dataset_to_best_human
+Gemini 3.0 Flash,emotion_and_affect,62.0,,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Gemini 3.0 Pro,emotion_and_affect,69.3,,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Gemini 3.1 Pro,knowledge_recall,91.85,,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Gemma 1.1 7B,moral_reasoning,44.4,7.0,,1,MoralBench (MFV Total),direction_corrected_raw
+Gemma 2 9B,therapy_protocol_fidelity,99.22822491730982,9.0,,1,CBT-Bench (CBT-QA Accuracy),human_baseline
+Gemma 3 12B,differential_diagnosis,38.5,12.0,8.8,1,MentalBench (Overall),direction_corrected_raw
+Gemma 3 12B,structured_clinical_reasoning,66.0,12.0,8.8,1,MENTAT (Overall Accuracy),direction_corrected_raw
+Gemma 3 27B,differential_diagnosis,36.85,27.0,10.3,1,MentalBench (Overall),direction_corrected_raw
+Gemma 3 27B,structured_clinical_reasoning,71.0,27.0,10.3,1,MENTAT (Overall Accuracy),direction_corrected_raw
+Gemma 3 4B,differential_diagnosis,33.34,4.0,6.3,1,MentalBench (Overall),direction_corrected_raw
+Gemma 3 4B,structured_clinical_reasoning,55.0,4.0,6.3,1,MENTAT (Overall Accuracy),direction_corrected_raw
+Gemma-2-27B-it,knowledge_recall,71.55,27.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Gemma-2-9B-it,knowledge_recall,66.17,9.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Gemma-7B,knowledge_recall,70.68,7.0,,1,PsychoBench (Top-1 Accuracy),direction_corrected_raw
+Gemma3 12B,therapy_protocol_fidelity,48.6,12.0,,1,MindEval (Avg),direction_corrected_raw
+Gemma3 27B,therapy_protocol_fidelity,47.0,27.0,,1,MindEval (Avg),direction_corrected_raw
+Gemma3 4B,therapy_protocol_fidelity,41.0,4.0,,1,MindEval (Avg),direction_corrected_raw
+Gemma3-12B,knowledge_recall,85.21,12.0,,1,PsychoBench (Top-1 Accuracy),direction_corrected_raw
+Gemma3-27b-it,knowledge_recall,88.58,27.0,,1,PsychoBench (Top-1 Accuracy),direction_corrected_raw
+Gopher 280B,knowledge_recall,71.6,280.0,,1,RACE-h (Overall),direction_corrected_raw
+Grok-2,knowledge_recall,81.33,,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Grok-2-mini,knowledge_recall,79.94,,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Human,therapy_protocol_fidelity,100.0,,,1,CBT-Bench (CBT-QA Accuracy),human_baseline
+Human Baseline,therapy_protocol_fidelity,100.0,,,1,CBT-Bench (CBT-QA Accuracy),human_baseline
+Hunyuan-lite,structured_clinical_reasoning,55.89,,,1,PsychBench (Overall),direction_corrected_raw
+Hunyuan-pro,structured_clinical_reasoning,81.63,,,1,PsychBench (Overall),direction_corrected_raw
+InternVL2.5 38B,emotion_and_affect,57.6,38.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+InternVL2.5 4B,emotion_and_affect,54.5,4.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+InternVL2.5 78B,emotion_and_affect,53.0,78.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+InternVL2.5 8B,emotion_and_affect,51.2,8.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+InternVideo2-Chat 8B,emotion_and_affect,50.6,8.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+InternistAI 7B,structured_clinical_reasoning,64.0,7.0,,1,MENTAT (Overall Accuracy),direction_corrected_raw
+Kimi K2,multi_turn_consistency,100.0,,26.3,1,HEART (Overall Win Rate),dataset_to_best_human
+Llama 2 70B,moral_reasoning,52.6,70.0,,1,MoralBench (MFV Total),direction_corrected_raw
+Llama 2 7B,structured_clinical_reasoning,39.0,7.0,,1,MENTAT (Overall Accuracy),direction_corrected_raw
+Llama 3 70B,emotion_and_affect,55.7,70.0,8.9,2,EmoBench (Emotion Application); EmoBench (Emotion Understanding),direction_corrected_raw
+Llama 3 70B,moral_reasoning,79.4,70.0,8.9,2,MoralChoice (High Ambiguity Accuracy); MoralChoice (Low Ambiguity Accuracy),direction_corrected_raw
+Llama 3 70B,theory_of_mind,92.5,70.0,8.9,2,Theory of Mind (Transfer DQA); Theory of Mind (Unexpected Content),direction_corrected_raw
+Llama 3 8B,emotion_and_affect,46.349999999999994,8.0,6.4,2,EmoBench (Emotion Application); EmoBench (Emotion Understanding),direction_corrected_raw
+Llama 3 8B,moral_reasoning,61.7,8.0,6.4,2,MoralChoice (High Ambiguity Accuracy); MoralChoice (Low Ambiguity Accuracy),direction_corrected_raw
+Llama 3 8B,theory_of_mind,30.0,8.0,6.4,2,Theory of Mind (Transfer DQA); Theory of Mind (Unexpected Content),direction_corrected_raw
+Llama 3.1 405B,multi_turn_consistency,31.100478468899524,405.0,17.4,1,HEART (Overall Win Rate),dataset_to_best_human
+Llama 3.1 405B,therapy_protocol_fidelity,83.25,405.0,17.4,2,CBT-Bench (CBT-QA Accuracy); CBT-Bench Level III (Overall vs reference),direction_corrected_raw; human_baseline
+Llama 3.1 70B,differential_diagnosis,47.09,70.0,12.5,1,MentalBench (Overall),direction_corrected_raw
+Llama 3.1 70B,multi_turn_consistency,6.220095693779907,70.0,12.5,1,HEART (Overall Win Rate),dataset_to_best_human
+Llama 3.1 70B,therapy_protocol_fidelity,100.0,70.0,12.5,1,CBT-Bench (CBT-QA Accuracy),human_baseline
+Llama 3.1 8B,differential_diagnosis,33.6,8.0,11.8,1,MentalBench (Overall),direction_corrected_raw
+Llama 3.1 8B,knowledge_recall,62.29,8.0,,2,MMLU-Pro (Psychology); PsychoBench (Top-1 Accuracy),direction_corrected_raw
+Llama 3.1 8B,structured_clinical_reasoning,65.0,8.0,11.8,1,MENTAT (Overall Accuracy),direction_corrected_raw
+Llama 3.1 8B,therapy_protocol_fidelity,64.23943403160602,8.0,11.8,3,CBT-Bench (CBT-QA Accuracy); CBT-Bench Level III (Overall vs reference); OMind-Chat (Conversation Level Scale 0-10),direction_corrected_raw; human_baseline
+Llama 3.2 3B,structured_clinical_reasoning,58.0,3.0,9.7,1,MENTAT (Overall Accuracy),direction_corrected_raw
+Llama 3.3 70B,structured_clinical_reasoning,75.8,70.0,14.5,1,PsychiatryBench (Overall),direction_corrected_raw
+Llama 3.3 70B Instruct,knowledge_recall,77.94,70.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Llama 4 Maverick,multi_turn_consistency,41.14832535885168,,18.4,1,HEART (Overall Win Rate),dataset_to_best_human
+Llama-3.1-70B-Instruct,knowledge_recall,75.56,70.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Llama2-13B-hf,knowledge_recall,32.11,13.0,,1,PsychoBench (Top-1 Accuracy),direction_corrected_raw
+Llama2-70B-chat-hf,knowledge_recall,76.0,70.0,,1,PsychoBench (Top-1 Accuracy),direction_corrected_raw
+Llama3.1-70B-Instruct,knowledge_recall,90.85,70.0,,1,PsychoBench (Top-1 Accuracy),direction_corrected_raw
+Llama3.3-70B-Instruct,knowledge_recall,91.16,70.0,,1,PsychoBench (Top-1 Accuracy),direction_corrected_raw
+LongVA-DPO 7B,emotion_and_affect,45.7,7.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+MMedLM2 7B,therapy_protocol_fidelity,49.0,7.0,,1,OMind-Chat (Conversation Level Scale 0-10),direction_corrected_raw
+MMedS,structured_clinical_reasoning,58.0,,,1,MENTAT (Overall Accuracy),direction_corrected_raw
+MedGemma,structured_clinical_reasoning,78.5,,,1,PsychiatryBench (Overall),direction_corrected_raw
+MedGemma 27B,structured_clinical_reasoning,73.75,27.0,,2,MENTAT (Overall Accuracy); PsychiatryBench (Overall),direction_corrected_raw
+MentaLLaMA 13B,differential_diagnosis,23.45,13.0,,1,MentalBench (Overall),direction_corrected_raw
+MentaLLaMA 13B,therapy_protocol_fidelity,34.0,13.0,,1,OMind-Chat (Conversation Level Scale 0-10),direction_corrected_raw
+MentaLLaMA 7B,differential_diagnosis,19.65,7.0,,1,MentalBench (Overall),direction_corrected_raw
+MentaLLaMA 7B,structured_clinical_reasoning,39.0,7.0,,1,MENTAT (Overall Accuracy),direction_corrected_raw
+MiniCPM-V-2.6 8B,emotion_and_affect,40.0,8.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Minimax,structured_clinical_reasoning,74.22,,,1,PsychBench (Overall),direction_corrected_raw
+Mistral 7B,emotion_and_affect,46.2,7.0,7.4,2,EmoBench (Emotion Application); EmoBench (Emotion Understanding),direction_corrected_raw
+Mistral 7B,knowledge_recall,38.6,7.0,7.4,2,MMLU-Pro (Psychology); PsychoBench (Top-1 Accuracy),direction_corrected_raw
+Mistral 7B,moral_reasoning,83.45,7.0,7.4,2,MoralChoice (High Ambiguity Accuracy); MoralChoice (Low Ambiguity Accuracy),direction_corrected_raw
+Mistral 7B,theory_of_mind,22.5,7.0,7.4,2,Theory of Mind (Transfer DQA); Theory of Mind (Unexpected Content),direction_corrected_raw
+Mistral 7B,therapy_protocol_fidelity,74.69415656008822,7.0,7.4,3,CBT-Bench (CBT-QA Accuracy); MentalChat16K (Judge average 1); OMind-Chat (Conversation Level Scale 0-10),direction_corrected_raw; human_baseline
+Mistral Large Instruct 2411,knowledge_recall,78.45,,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Mistral v0.3 7B,therapy_protocol_fidelity,83.68246968026462,7.0,,1,CBT-Bench (CBT-QA Accuracy),human_baseline
+Mixtral,emotion_and_affect,49.0,176.0,,2,EmoBench (Emotion Application); EmoBench (Emotion Understanding),direction_corrected_raw
+Mixtral,moral_reasoning,84.05,176.0,,2,MoralChoice (High Ambiguity Accuracy); MoralChoice (Low Ambiguity Accuracy),direction_corrected_raw
+Mixtral,theory_of_mind,59.375,176.0,,2,Theory of Mind (Transfer DQA); Theory of Mind (Unexpected Content),direction_corrected_raw
+Mixtral 8x7B Instruct v0.1,knowledge_recall,63.41,56.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Mixtral-8x7B-v0.1,knowledge_recall,61.03,56.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Mixtral-Instruct / V0.1,therapy_protocol_fidelity,80.4,56.0,,1,MentalChat16K (Judge average 1),direction_corrected_raw
+Moonshot-v1-32k,structured_clinical_reasoning,69.26,,,1,PsychBench (Overall),direction_corrected_raw
+MusPsy,therapy_protocol_fidelity,98.0,,,1,MusPsy (Score),direction_corrected_raw
+Original Dataset Completions,multi_turn_consistency,0.0,,,1,HEART (Overall Win Rate),dataset_to_best_human
+PATIENT-Ψ,therapy_protocol_fidelity,1.25,,,1,PATIENT-Ψ (Score),direction_corrected_raw
+PATIENT-Ψ-TRAINER,therapy_protocol_fidelity,1.25,,,1,PATIENT-Ψ (Score),direction_corrected_raw
+PMC-LLaMA 13B,structured_clinical_reasoning,48.0,13.0,,1,MENTAT (Overall Accuracy),direction_corrected_raw
+PMC-LLaMA 13B,therapy_protocol_fidelity,38.0,13.0,,1,OMind-Chat (Conversation Level Scale 0-10),direction_corrected_raw
+PaLM 2,knowledge_recall,90.9,,8.6,1,WinoGrande (Overall),direction_corrected_raw
+Polaris 4.0,multi_turn_consistency,100.0,,,1,HEART (Overall Win Rate),dataset_to_best_human
+QWQ-32B,structured_clinical_reasoning,78.1,32.0,19.7,1,PsychiatryBench (Overall),direction_corrected_raw
+QwQ-32B Preview,knowledge_recall,77.32,32.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Qwen 2.5 14B,differential_diagnosis,46.55,14.0,,1,MentalBench (Overall),direction_corrected_raw
+Qwen 2.5 14B,knowledge_recall,72.43,14.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Qwen 2.5 32B,differential_diagnosis,47.08,32.0,,1,MentalBench (Overall),direction_corrected_raw
+Qwen 2.5 32B,knowledge_recall,75.69,32.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Qwen 2.5 3B,knowledge_recall,55.51,3.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Qwen 2.5 72B,differential_diagnosis,41.66,72.0,,1,MentalBench (Overall),direction_corrected_raw
+Qwen 2.5 72B,knowledge_recall,78.57,72.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Qwen 2.5 7B,differential_diagnosis,36.12,7.0,,1,MentalBench (Overall),direction_corrected_raw
+Qwen 2.5 7B,therapy_protocol_fidelity,59.0,7.0,,1,OMind-Chat (Conversation Level Scale 0-10),direction_corrected_raw
+Qwen 3 14B,differential_diagnosis,38.14,14.0,,1,MentalBench (Overall),direction_corrected_raw
+Qwen 3 235B,differential_diagnosis,47.06,235.0,17.0,1,MentalBench (Overall),direction_corrected_raw
+Qwen 3 235B-A22B,differential_diagnosis,47.06,235.0,17.0,1,MentalBench (Overall),direction_corrected_raw
+Qwen 3 30B,structured_clinical_reasoning,76.0,30.0,12.5,1,MENTAT (Overall Accuracy),direction_corrected_raw
+Qwen 3 32B,differential_diagnosis,44.86,32.0,14.5,1,MentalBench (Overall),direction_corrected_raw
+Qwen 3 32B,structured_clinical_reasoning,75.1,32.0,14.5,1,PsychiatryBench (Overall),direction_corrected_raw
+Qwen 3 4B,structured_clinical_reasoning,66.0,4.0,,1,MENTAT (Overall Accuracy),direction_corrected_raw
+Qwen 3 8B,differential_diagnosis,33.09,8.0,,1,MentalBench (Overall),direction_corrected_raw
+Qwen-Turbo,emotion_and_affect,45.4,35.0,12.0,2,EmoBench (Emotion Application); EmoBench (Emotion Understanding),direction_corrected_raw
+Qwen-Turbo,moral_reasoning,69.35,35.0,12.0,2,MoralChoice (High Ambiguity Accuracy); MoralChoice (Low Ambiguity Accuracy),direction_corrected_raw
+Qwen-Turbo,theory_of_mind,42.5,35.0,12.0,2,Theory of Mind (Transfer DQA); Theory of Mind (Unexpected Content),direction_corrected_raw
+Qwen-VL 7B,emotion_and_affect,74.25,7.0,,1,EmoBench-Reddit (Overall Accuracy),direction_corrected_raw
+Qwen-VL-Max,emotion_and_affect,76.04,,,1,EmoBench-Reddit (Overall Accuracy),direction_corrected_raw
+Qwen-max,structured_clinical_reasoning,63.67,,,1,PsychBench (Overall),direction_corrected_raw
+Qwen2-7B,knowledge_recall,54.64,7.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Qwen2-7B-Instruct,knowledge_recall,61.28,7.0,,1,MMLU-Pro (Psychology),direction_corrected_raw
+Qwen2-Audio-Instruct 7B,emotion_and_affect,59.9,7.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Qwen2.5-7B-Instruct,knowledge_recall,26.2,7.0,,1,PsychoBench (Top-1 Accuracy),direction_corrected_raw
+Qwen2.5-Omni 7B,emotion_and_affect,49.7,7.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Qwen2.5-VL-Instruct 32B,emotion_and_affect,51.4,32.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Qwen2.5-VL-Instruct 72B,emotion_and_affect,54.8,72.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Qwen2.5-VL-Instruct 7B,emotion_and_affect,51.7,7.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Qwen3-235B-A22B-Instruct,therapy_protocol_fidelity,49.6,235.0,17.0,1,MindEval (Avg),direction_corrected_raw
+Qwen3-235B-A22B-Thinking,therapy_protocol_fidelity,36.4,235.0,,1,MindEval (Avg),direction_corrected_raw
+Qwen3-30B-A3B-Instruct,therapy_protocol_fidelity,29.0,30.0,12.5,1,MindEval (Avg),direction_corrected_raw
+Qwen3-32B,knowledge_recall,85.9,32.0,,1,PsychoBench (Top-1 Accuracy),direction_corrected_raw
+Qwen3-4B-Instruct,therapy_protocol_fidelity,23.2,4.0,12.5,1,MindEval (Avg),direction_corrected_raw
+Qwen3-VL-Instruct 8B,emotion_and_affect,57.8,8.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Qwen3-VL-Instruct-Thinking 8B,emotion_and_affect,46.7,8.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Samantha-v1.2,therapy_protocol_fidelity,74.6,,,1,MentalChat16K (Judge average 1),direction_corrected_raw
+Spark-4-Ultra,structured_clinical_reasoning,50.51,,,1,PsychBench (Overall),direction_corrected_raw
+Video-LLaMA2 72B,emotion_and_affect,50.7,72.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Video-LLaMA2 7B,emotion_and_affect,45.4,7.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Video-LLaMA2-16F 7B,emotion_and_affect,51.4,7.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Video-LLaMA2.1-AV 7B,emotion_and_affect,50.4,7.0,,1,EmoBench-M (FER Avg ACC),direction_corrected_raw
+Yi-large,structured_clinical_reasoning,76.53,,,1,PsychBench (Overall),direction_corrected_raw
+Zephyr,moral_reasoning,48.1,,,1,MoralBench (MFV Total),direction_corrected_raw
+Zephyr-Alpha,therapy_protocol_fidelity,79.0,,,1,MentalChat16K (Judge average 1),direction_corrected_raw
+o1,knowledge_recall,78.3,,30.8,1,GPQA (Overall),direction_corrected_raw
+o1,structured_clinical_reasoning,81.0,,30.8,1,MENTAT (Overall Accuracy),direction_corrected_raw
+o1,therapy_protocol_fidelity,67.6,,30.8,1,CounselingBench (Self-consistency),direction_corrected_raw
+o1-mini,structured_clinical_reasoning,75.0,,20.4,1,MENTAT (Overall Accuracy),direction_corrected_raw
+o3,multi_turn_consistency,100.0,,38.4,1,HEART (Overall Win Rate),dataset_to_best_human
+oMind-Llama,therapy_protocol_fidelity,50.0,,,1,OMind-Chat (Conversation Level Scale 0-10),direction_corrected_raw
+oMind-Mistral,therapy_protocol_fidelity,58.0,,,1,OMind-Chat (Conversation Level Scale 0-10),direction_corrected_raw
+oMind-Qwen,therapy_protocol_fidelity,65.0,,,1,OMind-Chat (Conversation Level Scale 0-10),direction_corrected_raw
